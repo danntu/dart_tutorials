@@ -7,4 +7,8 @@ void main() {
   } else {
     print('default');
   }
+
+  if (2>1 && 3<5){
+    print("Please");
+  }
 }

@@ -1,7 +1,10 @@
 void main() {
   var sanya = Human(name: 'Sasha', age: 23, height: 1990);
 
+  //sanya.name = 'dff';
   sanya.age = 24;
+  print(sanya.age);
+  sanya.grewUp(10);
   print(sanya.age);
 }
 
@@ -11,4 +14,8 @@ class Human {
   final String name;
   int age;
   double height;
+
+  void grewUp(int years) {
+    age += years;
+  }
 }

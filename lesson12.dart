@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 void main() {
   hello();
   square(7);
